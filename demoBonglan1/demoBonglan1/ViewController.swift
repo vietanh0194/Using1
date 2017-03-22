@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     var radians = CGFloat()
     var ballRadious = CGFloat()
     var ballRadious2 = CGFloat()
+    var mainViewSize = CGSize()
+    var random: CGFloat = 1
     var right: Bool = true
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,9 +30,6 @@ class ViewController: UIViewController {
         ballRadious = 32.0
         ballRadious2 = self.view.bounds.maxX
         ball.center = CGPoint(x: ballRadious, y: mainViewSize.height * 0.5)
-        
-//       ball.center = CGPoint(x: self.view.bounds.width, y: mainViewSize.height * 0.5)
-        
         self.view.addSubview(ball)
     }
     override func viewWillDisappear(_ animated: Bool) {
@@ -39,46 +38,47 @@ class ViewController: UIViewController {
     }
     func check(){
         if right {
+            changeRandom()
             rollBall()
         }else{
+            changeRandom()
             rollBall2()
         }
     }
     func rollBall()
     {
         var deltaAngle: CGFloat = 0.1
-//        var deltaAngle2: CGFloat = 0.4
         radians = radians + deltaAngle
         ball.transform = CGAffineTransform(rotationAngle: radians)
-//        ball.center = CGPoint(x: ballRadious, y:  self.view.bounds.height * 0.5)
-//        ball.center = CGPoint(x: ball.center.x + ballRadious * deltaAngle, y: ball.center.y)
-        ball.center = CGPoint(x: ball.center.x + ballRadious * deltaAngle, y: ball.center.y)
+        ball.center = CGPoint(x: ball.center.x + ballRadious * deltaAngle, y: ball.center.y + ballRadious * deltaAngle * random)
         if ball.center.x  >= self.view.bounds.width {
             rollBall2()
             right = false
-
         }
-//        if ball.center.x - ballRadious * deltaAngle == self.view.bounds.width {
-//            ball.center = CGPoint(x: ball.center.x - ballRadious * deltaAngle, y: ball.center.y)
-//        }
-//        ball.center = CGPoint(x: ballRadious2 - ballRadious * deltaAngle2, y: ball.center.y)
-//        print(self.view.bounds.width)
-//        print(ball.center.x - ballRadious * deltaAngle)
-        
     }
     func rollBall2()
     {
         var deltaAngle: CGFloat = -0.1
         radians = radians + deltaAngle
-//        ball.center = CGPoint(x: self.view.bounds.width, y: self.view.bounds.height * 0.5)
         ball.transform = CGAffineTransform(rotationAngle: radians)
-        ball.center = CGPoint(x: ball.center.x + ballRadious * deltaAngle, y: ball.center.y)
+        ball.center = CGPoint(x: ball.center.x + ballRadious * deltaAngle, y: ball.center.y + ballRadious * deltaAngle * random)
         if ball.center.x  <= ballRadious {
             rollBall()
             right = true
-            
+        }
+    }
+    func randomPoint() ->CGFloat{
+        return CGFloat(Float(arc4random()) / Float(UINT32_MAX))
+    }
+    func changeRandom(){
+        let ran = randomPoint()
+        if ball.center.y > mainViewSize.height - ballRadious {
+            random = -ran
+        }else if ball.center.y < ballRadious{
+            random = ran
         }
         
     }
+   
 }
 
