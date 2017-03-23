@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56492F381E837CB5002CCDAC /* hook.png in Resources */ = {isa = PBXBuildFile; fileRef = 56492F371E837CB5002CCDAC /* hook.png */; };
+		5656ABA31E8283C00001F3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656ABA21E8283C00001F3E6 /* AppDelegate.swift */; };
+		5656ABA51E8283C00001F3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656ABA41E8283C00001F3E6 /* ViewController.swift */; };
+		5656ABA81E8283C00001F3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABA61E8283C00001F3E6 /* Main.storyboard */; };
+		5656ABAA1E8283C00001F3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABA91E8283C00001F3E6 /* Assets.xcassets */; };
+		5656ABAD1E8283C00001F3E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABAB1E8283C00001F3E6 /* LaunchScreen.storyboard */; };
+		5656ABC31E8284590001F3E6 /* stripedbass.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABB51E8284590001F3E6 /* stripedbass.gif */; };
+		5656ABC41E8284590001F3E6 /* fish2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABB61E8284590001F3E6 /* fish2.jpg */; };
+		5656ABC51E8284590001F3E6 /* underOcean.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABB71E8284590001F3E6 /* underOcean.png */; };
+		5656ABC61E8284590001F3E6 /* fishroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABB81E8284590001F3E6 /* fishroll.png */; };
+		5656ABC71E8284590001F3E6 /* comedy.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABB91E8284590001F3E6 /* comedy.aif */; };
+		5656ABC81E8284590001F3E6 /* lifeup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBA1E8284590001F3E6 /* lifeup.wav */; };
+		5656ABC91E8284590001F3E6 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBB1E8284590001F3E6 /* music.mp3 */; };
+		5656ABCA1E8284590001F3E6 /* dory.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBC1E8284590001F3E6 /* dory.png */; };
+		5656ABCB1E8284590001F3E6 /* Fade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBD1E8284590001F3E6 /* Fade.mp3 */; };
+		5656ABCC1E8284590001F3E6 /* nhac song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBE1E8284590001F3E6 /* nhac song.mp3 */; };
+		5656ABCD1E8284590001F3E6 /* ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABBF1E8284590001F3E6 /* ocean.png */; };
+		5656ABCE1E8284590001F3E6 /* fish1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABC01E8284590001F3E6 /* fish1.png */; };
+		5656ABCF1E8284590001F3E6 /* buffaloFish.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABC11E8284590001F3E6 /* buffaloFish.gif */; };
+		5656ABD01E8284590001F3E6 /* bluefish.png in Resources */ = {isa = PBXBuildFile; fileRef = 5656ABC21E8284590001F3E6 /* bluefish.png */; };
+		5656ABD21E8286130001F3E6 /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656ABD11E8286130001F3E6 /* FishView.swift */; };
+		5656ABD41E8286210001F3E6 /* HookerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656ABD31E8286210001F3E6 /* HookerView.swift */; };
+		5656ABD61E8286340001F3E6 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5656ABD51E8286340001F3E6 /* GameManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56492F371E837CB5002CCDAC /* hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hook.png; sourceTree = "<group>"; };
+		5656AB9F1E8283C00001F3E6 /* demoCauca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoCauca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656ABA21E8283C00001F3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5656ABA41E8283C00001F3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5656ABA71E8283C00001F3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5656ABA91E8283C00001F3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5656ABAC1E8283C00001F3E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5656ABAE1E8283C00001F3E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5656ABB51E8284590001F3E6 /* stripedbass.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stripedbass.gif; sourceTree = "<group>"; };
+		5656ABB61E8284590001F3E6 /* fish2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fish2.jpg; sourceTree = "<group>"; };
+		5656ABB71E8284590001F3E6 /* underOcean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underOcean.png; sourceTree = "<group>"; };
+		5656ABB81E8284590001F3E6 /* fishroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fishroll.png; sourceTree = "<group>"; };
+		5656ABB91E8284590001F3E6 /* comedy.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = comedy.aif; sourceTree = "<group>"; };
+		5656ABBA1E8284590001F3E6 /* lifeup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lifeup.wav; sourceTree = "<group>"; };
+		5656ABBB1E8284590001F3E6 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		5656ABBC1E8284590001F3E6 /* dory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dory.png; sourceTree = "<group>"; };
+		5656ABBD1E8284590001F3E6 /* Fade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fade.mp3; sourceTree = "<group>"; };
+		5656ABBE1E8284590001F3E6 /* nhac song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nhac song.mp3"; sourceTree = "<group>"; };
+		5656ABBF1E8284590001F3E6 /* ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocean.png; sourceTree = "<group>"; };
+		5656ABC01E8284590001F3E6 /* fish1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fish1.png; sourceTree = "<group>"; };
+		5656ABC11E8284590001F3E6 /* buffaloFish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = buffaloFish.gif; sourceTree = "<group>"; };
+		5656ABC21E8284590001F3E6 /* bluefish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluefish.png; sourceTree = "<group>"; };
+		5656ABD11E8286130001F3E6 /* FishView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		5656ABD31E8286210001F3E6 /* HookerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HookerView.swift; sourceTree = "<group>"; };
+		5656ABD51E8286340001F3E6 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5656AB9C1E8283C00001F3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5656AB961E8283C00001F3E6 = {
+			isa = PBXGroup;
+			children = (
+				5656ABB41E82843D0001F3E6 /* file */,
+				5656ABA11E8283C00001F3E6 /* demoCauca */,
+				5656ABA01E8283C00001F3E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5656ABA01E8283C00001F3E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5656AB9F1E8283C00001F3E6 /* demoCauca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5656ABA11E8283C00001F3E6 /* demoCauca */ = {
+			isa = PBXGroup;
+			children = (
+				5656ABA21E8283C00001F3E6 /* AppDelegate.swift */,
+				5656ABA41E8283C00001F3E6 /* ViewController.swift */,
+				5656ABA61E8283C00001F3E6 /* Main.storyboard */,
+				5656ABA91E8283C00001F3E6 /* Assets.xcassets */,
+				5656ABAB1E8283C00001F3E6 /* LaunchScreen.storyboard */,
+				5656ABAE1E8283C00001F3E6 /* Info.plist */,
+				5656ABD11E8286130001F3E6 /* FishView.swift */,
+				5656ABD31E8286210001F3E6 /* HookerView.swift */,
+				5656ABD51E8286340001F3E6 /* GameManager.swift */,
+			);
+			path = demoCauca;
+			sourceTree = "<group>";
+		};
+		5656ABB41E82843D0001F3E6 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				5656ABB51E8284590001F3E6 /* stripedbass.gif */,
+				5656ABB61E8284590001F3E6 /* fish2.jpg */,
+				5656ABB71E8284590001F3E6 /* underOcean.png */,
+				5656ABB81E8284590001F3E6 /* fishroll.png */,
+				5656ABB91E8284590001F3E6 /* comedy.aif */,
+				5656ABBA1E8284590001F3E6 /* lifeup.wav */,
+				5656ABBB1E8284590001F3E6 /* music.mp3 */,
+				5656ABBC1E8284590001F3E6 /* dory.png */,
+				5656ABBD1E8284590001F3E6 /* Fade.mp3 */,
+				5656ABBE1E8284590001F3E6 /* nhac song.mp3 */,
+				5656ABBF1E8284590001F3E6 /* ocean.png */,
+				5656ABC01E8284590001F3E6 /* fish1.png */,
+				5656ABC11E8284590001F3E6 /* buffaloFish.gif */,
+				5656ABC21E8284590001F3E6 /* bluefish.png */,
+				56492F371E837CB5002CCDAC /* hook.png */,
+			);
+			name = file;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5656AB9E1E8283C00001F3E6 /* demoCauca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5656ABB11E8283C00001F3E6 /* Build configuration list for PBXNativeTarget "demoCauca" */;
+			buildPhases = (
+				5656AB9B1E8283C00001F3E6 /* Sources */,
+				5656AB9C1E8283C00001F3E6 /* Frameworks */,
+				5656AB9D1E8283C00001F3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demoCauca;
+			productName = demoCauca;
+			productReference = 5656AB9F1E8283C00001F3E6 /* demoCauca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5656AB971E8283C00001F3E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Viet Anh";
+				TargetAttributes = {
+					5656AB9E1E8283C00001F3E6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5656AB9A1E8283C00001F3E6 /* Build configuration list for PBXProject "demoCauca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5656AB961E8283C00001F3E6;
+			productRefGroup = 5656ABA01E8283C00001F3E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5656AB9E1E8283C00001F3E6 /* demoCauca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5656AB9D1E8283C00001F3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656ABC91E8284590001F3E6 /* music.mp3 in Resources */,
+				5656ABAD1E8283C00001F3E6 /* LaunchScreen.storyboard in Resources */,
+				56492F381E837CB5002CCDAC /* hook.png in Resources */,
+				5656ABC71E8284590001F3E6 /* comedy.aif in Resources */,
+				5656ABCE1E8284590001F3E6 /* fish1.png in Resources */,
+				5656ABC41E8284590001F3E6 /* fish2.jpg in Resources */,
+				5656ABAA1E8283C00001F3E6 /* Assets.xcassets in Resources */,
+				5656ABD01E8284590001F3E6 /* bluefish.png in Resources */,
+				5656ABC61E8284590001F3E6 /* fishroll.png in Resources */,
+				5656ABCB1E8284590001F3E6 /* Fade.mp3 in Resources */,
+				5656ABC51E8284590001F3E6 /* underOcean.png in Resources */,
+				5656ABCD1E8284590001F3E6 /* ocean.png in Resources */,
+				5656ABA81E8283C00001F3E6 /* Main.storyboard in Resources */,
+				5656ABCC1E8284590001F3E6 /* nhac song.mp3 in Resources */,
+				5656ABCF1E8284590001F3E6 /* buffaloFish.gif in Resources */,
+				5656ABCA1E8284590001F3E6 /* dory.png in Resources */,
+				5656ABC81E8284590001F3E6 /* lifeup.wav in Resources */,
+				5656ABC31E8284590001F3E6 /* stripedbass.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5656AB9B1E8283C00001F3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656ABA51E8283C00001F3E6 /* ViewController.swift in Sources */,
+				5656ABA31E8283C00001F3E6 /* AppDelegate.swift in Sources */,
+				5656ABD41E8286210001F3E6 /* HookerView.swift in Sources */,
+				5656ABD21E8286130001F3E6 /* FishView.swift in Sources */,
+				5656ABD61E8286340001F3E6 /* GameManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5656ABA61E8283C00001F3E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5656ABA71E8283C00001F3E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5656ABAB1E8283C00001F3E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5656ABAC1E8283C00001F3E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5656ABAF1E8283C00001F3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5656ABB01E8283C00001F3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5656ABB21E8283C00001F3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demoCauca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vietanh.demoCauca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5656ABB31E8283C00001F3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = demoCauca/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vietanh.demoCauca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5656AB9A1E8283C00001F3E6 /* Build configuration list for PBXProject "demoCauca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656ABAF1E8283C00001F3E6 /* Debug */,
+				5656ABB01E8283C00001F3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5656ABB11E8283C00001F3E6 /* Build configuration list for PBXNativeTarget "demoCauca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656ABB21E8283C00001F3E6 /* Debug */,
+				5656ABB31E8283C00001F3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5656AB971E8283C00001F3E6 /* Project object */;
+}
