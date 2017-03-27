@@ -39,13 +39,13 @@ class FishView: UIImageView {
             self.transform = CGAffineTransform.identity
             ///dat lai thuoc tinh truoc khi chinh sua
             self.image = UIImage(named: "fishroll" )
-            self.frame = CGRect(x: -CGFloat(self.widthFish!), y: CGFloat(y), width: CGFloat(self.widthFish!) , height: CGFloat(self.heightFish!))
+            self.frame = CGRect(x: -CGFloat(self.widthFrame!), y: CGFloat(y + 100), width: CGFloat(self.widthFish!) , height: CGFloat(self.heightFish!))
         }else{
             self.transform = CGAffineTransform.identity
             //quay dau ca nhu phan chieu qua guong
             self.image = UIImage(cgImage:(UIImage(named: "fishroll")?.cgImage)!, scale: 1.0, orientation: UIImageOrientation.upMirrored)
             //
-            self.frame = CGRect(x: CGFloat(self.widthFish!), y: CGFloat(y), width: CGFloat(self.widthFish!) , height: CGFloat(self.heightFish!))
+            self.frame = CGRect(x: CGFloat(self.widthFrame!), y: CGFloat(y + 100), width: CGFloat(self.widthFish!) , height: CGFloat(self.heightFish!))
             self.speed = -Int(self.speed!)
         }
     }
